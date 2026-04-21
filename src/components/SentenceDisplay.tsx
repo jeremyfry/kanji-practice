@@ -1,12 +1,16 @@
 import { parseAnnotated } from '../utils/parseSentences'
 
+interface VocabEntry {
+  word:    string
+  reading: string
+  meaning: string
+}
+
 interface Props {
   annotated:     string
   translation:   string
-  targetWord:    string   // dictionary form, e.g. "付ける"
-  targetReading: string
-  targetMeaning: string
-  targetSurface: string   // surface form in sentence, e.g. "付けた"
+  targetSurface: string
+  sentenceVocab: VocabEntry[]
   showFurigana:    boolean
   showTranslation: boolean
   showVocab:       boolean
@@ -18,10 +22,8 @@ interface Props {
 export function SentenceDisplay({
   annotated,
   translation,
-  targetWord,
-  targetReading,
-  targetMeaning,
   targetSurface,
+  sentenceVocab,
   showFurigana,
   showTranslation,
   showVocab,
@@ -30,6 +32,7 @@ export function SentenceDisplay({
   onToggleVocab,
 }: Props) {
   const segments = parseAnnotated(annotated)
+  const targetWord = sentenceVocab[0]
 
   return (
     <div className="sentence-card">
@@ -68,10 +71,25 @@ export function SentenceDisplay({
       )}
 
       {showVocab && (
-        <div className="target-callout">
-          <span className="target-callout-word">{targetWord}</span>
-          <span className="target-callout-reading">（{targetReading}）</span>
-          <span className="target-callout-meaning">{targetMeaning}</span>
+        <div className="vocab-panel">
+          {targetWord && (
+            <div className="target-callout">
+              <span className="target-callout-word">{targetWord.word}</span>
+              <span className="target-callout-reading">（{targetWord.reading}）</span>
+              <span className="target-callout-meaning">{targetWord.meaning}</span>
+            </div>
+          )}
+          {sentenceVocab.length > 1 && (
+            <ul>
+              {sentenceVocab.slice(1).map(v => (
+                <li key={v.word}>
+                  <span className="vocab-word">{v.word}</span>
+                  <span className="vocab-reading">（{v.reading}）</span>
+                  <span className="vocab-meaning">{v.meaning}</span>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
       )}
     </div>

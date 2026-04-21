@@ -35,13 +35,15 @@ When generating a sentence:
 - In the "annotated" field, wrap every kanji-containing word as {surface|reading}
   Examples: {今日|きょう}、{付けた|つけた}、{友達|ともだち}
   Plain hiragana, katakana, and punctuation need no annotation
-- In "targetSurface" return the exact surface text as it appears in "annotated" (e.g. "付けた", not "付ける")`
+- In "targetSurface" return the exact surface text as it appears in "annotated" (e.g. "付けた", not "付ける")
+- In "vocabUsed" return the dictionary forms (exactly as they appear in the vocabulary list above) of every word from the list that appears in the sentence, including the target word`
 }
 
 export interface GeneratedSentence {
   annotated:     string
   translation:   string
   targetSurface: string
+  vocabUsed:     string[]
 }
 
 export async function generateSentence(
@@ -73,7 +75,8 @@ Return only this JSON object, no other text:
 {
   "annotated": "...",
   "translation": "...",
-  "targetSurface": "..."
+  "targetSurface": "...",
+  "vocabUsed": ["...", "..."]
 }`,
       },
     ],

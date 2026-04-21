@@ -11,6 +11,14 @@ body {
   min-height: 100vh;
 }
 
+body.font-mincho {
+  font-family: 'Shippori Mincho', 'Hiragino Mincho Pro', 'Yu Mincho', serif;
+}
+
+body.font-cursive {
+  font-family: 'Zen Kurenaido', cursive;
+}
+
 .app {
   max-width: 720px;
   margin: 0 auto;
@@ -20,6 +28,37 @@ body {
 header {
   text-align: center;
   margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.font-switcher {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  gap: 0.3rem;
+}
+
+.font-btn {
+  background: transparent;
+  border: 1px solid #333;
+  border-radius: 5px;
+  color: #666;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+  line-height: 1.4;
+}
+
+.font-btn:hover {
+  border-color: #555;
+  color: #aaa;
+}
+
+.font-btn.active {
+  border-color: #c9a227;
+  color: #c9a227;
 }
 
 h1 {

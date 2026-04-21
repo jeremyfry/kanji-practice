@@ -1,10 +1,16 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useLayoutEffect } from 'react'
 import { Rating } from 'ts-fsrs'
 import type { Grade } from 'ts-fsrs'
 import { SentenceDisplay } from './components/SentenceDisplay'
 import { RatingButtons } from './components/RatingButtons'
 import { PendingWords } from './components/PendingWords'
 import { getPendingWords } from './utils/pendingWords'
+
+interface VocabEntry {
+  word:    string
+  reading: string
+  meaning: string
+}
 
 interface ReviewCard {
   word:          string
@@ -14,6 +20,7 @@ interface ReviewCard {
   annotated:     string
   translation:   string
   targetSurface: string
+  sentenceVocab: VocabEntry[]
 }
 
 type AppState =
@@ -42,6 +49,18 @@ export default function App() {
   const [appState, setAppState] = useState<AppState>({ kind: 'loading' })
   const [dueCount, setDueCount]   = useState(0)
   const [pending, setPending]     = useState<string[]>([])
+  type FontStyle = 'gothic' | 'mincho' | 'cursive'
+  const [font, setFont] = useState<FontStyle>(
+    () => (localStorage.getItem('font') as FontStyle) ?? 'gothic'
+  )
+
+  useLayoutEffect(() => {
+    document.body.classList.remove('font-mincho', 'font-cursive')
+    if (font === 'mincho')  document.body.classList.add('font-mincho')
+    if (font === 'cursive') document.body.classList.add('font-cursive')
+    localStorage.setItem('font', font)
+  }, [font])
+
   const [showFurigana, setShowFurigana]       = useState(false)
   const [showTranslation, setShowTranslation] = useState(false)
   const [showVocab, setShowVocab]             = useState(false)
@@ -96,6 +115,11 @@ export default function App() {
       <header>
         <h1>漢字練習</h1>
         <p className="subtitle">{dueLabel}</p>
+        <div className="font-switcher">
+          <button className={`font-btn${font === 'gothic'  ? ' active' : ''}`} onClick={() => setFont('gothic')}>ゴシック</button>
+          <button className={`font-btn${font === 'mincho'  ? ' active' : ''}`} onClick={() => setFont('mincho')}>明朝</button>
+          <button className={`font-btn${font === 'cursive' ? ' active' : ''}`} onClick={() => setFont('cursive')}>手書き</button>
+        </div>
       </header>
 
       <main>
@@ -129,10 +153,8 @@ export default function App() {
             <SentenceDisplay
               annotated={appState.card.annotated}
               translation={appState.card.translation}
-              targetWord={appState.card.word}
-              targetReading={appState.card.reading}
-              targetMeaning={appState.card.meaning}
               targetSurface={appState.card.targetSurface}
+              sentenceVocab={appState.card.sentenceVocab}
               showFurigana={showFurigana}
               showTranslation={showTranslation}
               showVocab={showVocab}

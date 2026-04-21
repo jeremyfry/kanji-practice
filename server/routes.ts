@@ -26,6 +26,16 @@ routes.get('/review/next', async (c) => {
     return c.json({ error: 'Failed to generate sentence', detail: String(e) }, 502)
   }
 
+  // Look up full vocab details for words used in the sentence, target word first
+  const otherWords = (sentence.vocabUsed ?? []).filter(w => w !== next.word)
+  const allWords = [next.word, ...otherWords]
+  const placeholders = allWords.map(() => '?').join(',')
+  const rows = db.prepare<string[], VocabRow>(
+    `SELECT word, reading, meaning FROM vocab WHERE word IN (${placeholders})`
+  ).all(...allWords)
+  const vocabMap = new Map(rows.map(r => [r.word, r]))
+  const sentenceVocab = allWords.map(w => vocabMap.get(w)).filter(Boolean)
+
   return c.json({
     word:          next.word,
     reading:       next.reading,
@@ -34,6 +44,7 @@ routes.get('/review/next', async (c) => {
     annotated:     sentence.annotated,
     translation:   sentence.translation,
     targetSurface: sentence.targetSurface,
+    sentenceVocab,
   })
 })
 
