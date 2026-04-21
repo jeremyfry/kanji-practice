@@ -27,7 +27,7 @@ npm run dev            # Vite frontend on :5173
 ## Deploying to a Linux VM
 
 ```bash
-# On the VM
+# On the server
 git clone <repo> /opt/kanji-practice
 cd /opt/kanji-practice
 npm install
@@ -35,34 +35,60 @@ npm run build
 cp .env.example .env   # fill in ANTHROPIC_API_KEY
 npm run seed
 
-# Systemd service
-sed -i 's/YOUR_USER/your-username/' kanji-practice.service
-sudo cp kanji-practice.service /etc/systemd/system/
-sudo systemctl enable --now kanji-practice
+# Start with PM2 and configure autostart
+npm install -g pm2
+pm2 start node_modules/.bin/tsx --name kanji-practice -- server/index.ts
+pm2 save
+pm2 startup   # prints a command to run — follow its instructions
 ```
 
 The server listens on `PORT` (default 3000) and serves the built frontend as a SPA.
 
 ## Adding vocabulary
 
-**From a Skritter TSV export** or to process words queued via the in-app pending words panel, use the `/import-vocab` Claude Code skill. It looks up readings/meanings and POSTs them to the server.
+### From Skritter
 
-Set `KANJI_SERVER_URL` in `.env` to your VM's Tailscale hostname when running the skill remotely:
+Export your list from Skritter as a TSV file (Vocab → Export). Place the file anywhere in the project directory, then run the `/import-vocab` skill in Claude Code with the path as an argument:
+
+```
+/import-vocab skritter-export.tsv
+```
+
+The skill deduplicates against existing vocab, then POSTs new words to the server. SRS cards are created automatically.
+
+### From the in-app panel
+
+Type a word into the "Add words" panel and press Enter. Words queue in the database as pending. Run `/import-vocab` with no argument to process them — Claude will look up the reading and meaning for each word.
+
+### Targeting the deployed server
+
+The `/import-vocab` skill reads `KANJI_SERVER_URL` from your **local** `.env` (on the machine where you're running Claude Code). Set it to your VM's Tailscale hostname to import directly into the deployed instance:
 
 ```
 KANJI_SERVER_URL=http://my-vm:3000
 ```
 
-**Direct seed file:** add rows to `public/vocab.tsv` (tab-separated: word, reading, meaning) and re-run `npm run seed`.
+The VM's own `.env` does not need `KANJI_SERVER_URL`.
+
+### Direct seed file
+
+Add rows to `public/vocab.tsv` (tab-separated: word, reading, meaning) and re-run `npm run seed`.
 
 ## Environment variables
 
+**Server** (VM's `.env`):
+
 | Variable | Default | Description |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | — | Required. Claude API key |
+| `ANTHROPIC_API_KEY` | — | Required. Claude API key for sentence generation |
 | `PORT` | `3000` | Server port |
 | `DB_PATH` | `./kanji.db` | SQLite database path |
-| `KANJI_SERVER_URL` | `http://localhost:3000` | Used by `/import-vocab` skill |
+
+**Local** (desktop `.env`, used by `/import-vocab`):
+
+| Variable | Default | Description |
+|---|---|---|
+| `KANJI_SERVER_URL` | `http://localhost:3000` | Server to import vocab into |
 
 ## Tech stack
 
