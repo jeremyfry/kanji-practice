@@ -9,8 +9,10 @@ interface Props {
   targetSurface: string   // surface form in sentence, e.g. "付けた"
   showFurigana:    boolean
   showTranslation: boolean
+  showVocab:       boolean
   onToggleFurigana:    () => void
   onToggleTranslation: () => void
+  onToggleVocab:       () => void
 }
 
 export function SentenceDisplay({
@@ -22,8 +24,10 @@ export function SentenceDisplay({
   targetSurface,
   showFurigana,
   showTranslation,
+  showVocab,
   onToggleFurigana,
   onToggleTranslation,
+  onToggleVocab,
 }: Props) {
   const segments = parseAnnotated(annotated)
 
@@ -54,17 +58,22 @@ export function SentenceDisplay({
         <button className="toggle-btn" onClick={onToggleTranslation}>
           {showTranslation ? 'Hide' : 'Show'} Translation
         </button>
+        <button className="toggle-btn" onClick={onToggleVocab}>
+          {showVocab ? 'Hide' : 'Show'} Vocab
+        </button>
       </div>
 
       {showTranslation && (
         <div className="translation">{translation}</div>
       )}
 
-      <div className="target-callout">
-        <span className="target-callout-word">{targetWord}</span>
-        <span className="target-callout-reading">（{targetReading}）</span>
-        <span className="target-callout-meaning">{targetMeaning}</span>
-      </div>
+      {showVocab && (
+        <div className="target-callout">
+          <span className="target-callout-word">{targetWord}</span>
+          <span className="target-callout-reading">（{targetReading}）</span>
+          <span className="target-callout-meaning">{targetMeaning}</span>
+        </div>
+      )}
     </div>
   )
 }

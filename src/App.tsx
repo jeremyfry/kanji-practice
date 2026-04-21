@@ -44,6 +44,7 @@ export default function App() {
   const [pending, setPending]     = useState<string[]>([])
   const [showFurigana, setShowFurigana]       = useState(false)
   const [showTranslation, setShowTranslation] = useState(false)
+  const [showVocab, setShowVocab]             = useState(false)
 
   const refreshPending = async () => setPending(await getPendingWords())
 
@@ -51,6 +52,7 @@ export default function App() {
     setAppState({ kind: 'loading' })
     setShowFurigana(false)
     setShowTranslation(false)
+    setShowVocab(false)
     try {
       const card = await fetchNextCard()
       if (!card) {
@@ -133,8 +135,10 @@ export default function App() {
               targetSurface={appState.card.targetSurface}
               showFurigana={showFurigana}
               showTranslation={showTranslation}
+              showVocab={showVocab}
               onToggleFurigana={() => setShowFurigana(v => !v)}
               onToggleTranslation={() => setShowTranslation(v => !v)}
+              onToggleVocab={() => setShowVocab(v => !v)}
             />
             <RatingButtons onRate={handleRate} disabled={appState.rating} />
           </>
