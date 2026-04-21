@@ -1,0 +1,2268 @@
+[
+{
+"annotated": "{今日|きょう}は{学校|がっこう}で{音楽|おんがく}の{練習|れんしゅう}をしました。",
+"translation": "Today I practiced music at school.",
+"vocabUsed": [
+"今日",
+"学校",
+"音楽",
+"練習"
+]
+},
+{
+"annotated": "{先生|せんせい}は{学生|がくせい}に{難しい|むずかしい}{問題|もんだい}を{教えました|おしえました}。",
+"translation": "The teacher taught the students a difficult problem.",
+"vocabUsed": [
+"先生",
+"学生",
+"難しい",
+"問題",
+"教える"
+]
+},
+{
+"annotated": "{友達|ともだち}と{一緒|いっしょ}に{映画|えいが}を{見ました|みました}。",
+"translation": "I watched a movie together with my friend.",
+"vocabUsed": [
+"友達",
+"一緒",
+"映画",
+"見る"
+]
+},
+{
+"annotated": "{毎日|まいにち}{勉強|べんきょう}するのは{大変|たいへん}です。",
+"translation": "Studying every day is tough.",
+"vocabUsed": [
+"毎日",
+"勉強",
+"大変"
+]
+},
+{
+"annotated": "{家族|かぞく}と{一緒|いっしょ}に{料理|りょうり}を{作りました|つくりました}。",
+"translation": "I made food together with my family.",
+"vocabUsed": [
+"家族",
+"一緒",
+"料理",
+"作る"
+]
+},
+{
+"annotated": "{銀行|ぎんこう}の{近く|ちかく}に{新しい|あたらしい}{店|みせ}があります。",
+"translation": "There is a new store near the bank.",
+"vocabUsed": [
+"銀行",
+"近い",
+"新しい",
+"店"
+]
+},
+{
+"annotated": "バスで{大学|だいがく}に{行きます|いきます}。",
+"translation": "I go to university by bus.",
+"vocabUsed": [
+"バス",
+"大学",
+"行く"
+]
+},
+{
+"annotated": "{子供|こども}たちは{外|そと}で{走っています|はしっています}。",
+"translation": "The children are running outside.",
+"vocabUsed": [
+"子供",
+"外",
+"走る"
+]
+},
+{
+"annotated": "{昨日|きのう}は{病院|びょういん}で{先生|せんせい}に{会いました|あいました}。",
+"translation": "Yesterday I met the doctor at the hospital.",
+"vocabUsed": [
+"昨日",
+"病院",
+"先生",
+"会う"
+]
+},
+{
+"annotated": "{仕事|しごと}が{終わったら|おわったら}{友達|ともだち}に{電話|でんわ}します。",
+"translation": "When work ends, I'll call my friend.",
+"vocabUsed": [
+"仕事",
+"終わる",
+"友達",
+"電話"
+]
+},
+{
+"annotated": "{英語|えいご}を{話す|はなす}のが{難しい|むずかしい}です。",
+"translation": "Speaking English is difficult.",
+"vocabUsed": [
+"英語",
+"話す",
+"難しい"
+]
+},
+{
+"annotated": "{若い|わかい}{学生|がくせい}が{多い|おおい}{大学|だいがく}です。",
+"translation": "It's a university with many young students.",
+"vocabUsed": [
+"若い",
+"学生",
+"多い",
+"大学"
+]
+},
+{
+"annotated": "{明日|あした}は{早く|はやく}{起きて|おきて}{授業|じゅぎょう}に{行きます|いきます}。",
+"translation": "Tomorrow I'll wake up early and go to class.",
+"vocabUsed": [
+"明日",
+"早い",
+"起きる",
+"授業",
+"行く"
+]
+},
+{
+"annotated": "この{本|ほん}はとても{面白い|おもしろい}です。",
+"translation": "This book is very interesting.",
+"vocabUsed": [
+"本",
+"面白い"
+]
+},
+{
+"annotated": "{夏|なつ}は{海|うみ}で{泳ぐ|およぐ}のが{好き|すき}です。",
+"translation": "In summer, I like swimming in the sea.",
+"vocabUsed": [
+"夏",
+"海",
+"好き"
+]
+},
+{
+"annotated": "{写真|しゃしん}を{撮って|とって}{友達|ともだち}に{見せました|みせました}。",
+"translation": "I took a photo and showed it to my friend.",
+"vocabUsed": [
+"写真",
+"友達",
+"見せる"
+]
+},
+{
+"annotated": "テレビで{新しい|あたらしい}ニュースを{聞きました|ききました}。",
+"translation": "I heard the new news on TV.",
+"vocabUsed": [
+"テレビ",
+"新しい",
+"ニュース",
+"聞く"
+]
+},
+{
+"annotated": "{駅|えき}の{近く|ちかく}に{住んでいます|すんでいます}。",
+"translation": "I live near the station.",
+"vocabUsed": [
+"駅",
+"近い",
+"住む"
+]
+},
+{
+"annotated": "{朝|あさ}{早く|はやく}{起きて|おきて}{仕事|しごと}に{行きます|いきます}。",
+"translation": "I wake up early in the morning and go to work.",
+"vocabUsed": [
+"朝",
+"早い",
+"起きる",
+"仕事",
+"行く"
+]
+},
+{
+"annotated": "{難しい|むずかしい}{言葉|ことば}の{意味|いみ}を{先生|せんせい}に{質問しました|しつもんしました}。",
+"translation": "I asked the teacher about the meaning of a difficult word.",
+"vocabUsed": [
+"難しい",
+"言葉",
+"意味",
+"先生",
+"質問"
+]
+},
+{
+"annotated": "{外国|がいこく}の{料理|りょうり}を{作る|つくる}のが{好き|すき}です。",
+"translation": "I like making foreign food.",
+"vocabUsed": [
+"外国",
+"料理",
+"作る",
+"好き"
+]
+},
+{
+"annotated": "{子供|こども}の{頃|ころ}、{毎日|まいにち}{本|ほん}を{読みました|よみました}。",
+"translation": "When I was a child, I read books every day.",
+"vocabUsed": [
+"子供",
+"毎日",
+"本",
+"読む"
+]
+},
+{
+"annotated": "{新聞|しんぶん}を{読んで|よんで}{問題|もんだい}を{考えました|かんがえました}。",
+"translation": "I read the newspaper and thought about the problem.",
+"vocabUsed": [
+"新聞",
+"読む",
+"問題"
+]
+},
+{
+"annotated": "{昨日|きのう}、{駅|えき}で{友達|ともだち}に{会いました|あいました}。",
+"translation": "Yesterday, I met my friend at the station.",
+"vocabUsed": [
+"昨日",
+"駅",
+"友達",
+"会う"
+]
+},
+{
+"annotated": "{大学|だいがく}の{授業|じゅぎょう}は{難しい|むずかしい}ですが、{面白い|おもしろい}です。",
+"translation": "University classes are difficult, but interesting.",
+"vocabUsed": [
+"大学",
+"授業",
+"難しい",
+"面白い"
+]
+},
+{
+"annotated": "{山|やま}の{上|うえ}に{古い|ふるい}{家|いえ}があります。",
+"translation": "There is an old house on top of the mountain.",
+"vocabUsed": [
+"山",
+"上",
+"家"
+]
+},
+{
+"annotated": "{音楽|おんがく}を{聞き|きき}ながら{勉強|べんきょう}します。",
+"translation": "I study while listening to music.",
+"vocabUsed": [
+"音楽",
+"聞く",
+"勉強"
+]
+},
+{
+"annotated": "{電話|でんわ}で{話す|はなす}のが{難しくて|むずかしくて}{困ります|こまります}。",
+"translation": "I have trouble talking on the phone.",
+"vocabUsed": [
+"電話",
+"話す",
+"難しい",
+"困る"
+]
+},
+{
+"annotated": "{会社|かいしゃ}の{仕事|しごと}が{大変|たいへん}です。",
+"translation": "Work at the company is tough.",
+"vocabUsed": [
+"会社",
+"仕事",
+"大変"
+]
+},
+{
+"annotated": "{子供|こども}は{毎朝|まいあさ}{学校|がっこう}に{歩いて|あるいて}{行きます|いきます}。",
+"translation": "Children walk to school every morning.",
+"vocabUsed": [
+"子供",
+"学校",
+"歩く",
+"行く"
+]
+},
+{
+"annotated": "{夏|なつ}に{家族|かぞく}と{海|うみ}に{行きました|いきました}。",
+"translation": "In summer, I went to the sea with my family.",
+"vocabUsed": [
+"夏",
+"家族",
+"海",
+"行く"
+]
+},
+{
+"annotated": "{友達|ともだち}の{名前|なまえ}を{忘れて|わすれて}しまいました。",
+"translation": "I ended up forgetting my friend's name.",
+"vocabUsed": [
+"友達",
+"名前",
+"忘れる"
+]
+},
+{
+"annotated": "{先生|せんせい}に{質問|しつもん}して{答え|こたえ}を{覚えました|おぼえました}。",
+"translation": "I asked the teacher a question and memorized the answer.",
+"vocabUsed": [
+"先生",
+"質問",
+"答える",
+"覚える"
+]
+},
+{
+"annotated": "{今年|ことし}、{外国|がいこく}に{旅行|りょこう}したいです。",
+"translation": "This year, I want to travel to a foreign country.",
+"vocabUsed": [
+"今年",
+"外国",
+"旅行"
+]
+},
+{
+"annotated": "{店|みせ}で{安い|やすい}ものをたくさん{買いました|かいました}。",
+"translation": "I bought many cheap things at the store.",
+"vocabUsed": [
+"店",
+"安い",
+"買う"
+]
+},
+{
+"annotated": "{銀行|ぎんこう}に{金|かね}を{入れました|いれました}。",
+"translation": "I put money into the bank.",
+"vocabUsed": [
+"銀行",
+"金",
+"入れる"
+]
+},
+{
+"annotated": "{病院|びょういん}の{先生|せんせい}はとても{良い|いい}{方|かた}です。",
+"translation": "The hospital doctor is a very good person.",
+"vocabUsed": [
+"病院",
+"先生",
+"良い",
+"方"
+]
+},
+{
+"annotated": "{映画|えいが}を{見て|みて}、{楽しい|たのしい}{時間|じかん}を{過ごしました|すごしました}。",
+"translation": "I watched a movie and spent a fun time.",
+"vocabUsed": [
+"映画",
+"見る",
+"楽しい",
+"時間"
+]
+},
+{
+"annotated": "{学生|がくせい}の{頃|ころ}、{毎日|まいにち}{練習|れんしゅう}しました。",
+"translation": "When I was a student, I practiced every day.",
+"vocabUsed": [
+"学生",
+"毎日",
+"練習"
+]
+},
+{
+"annotated": "{友達|ともだち}に{大切|たいせつ}なことを{話しました|はなしました}。",
+"translation": "I talked to my friend about something important.",
+"vocabUsed": [
+"友達",
+"大切",
+"話す"
+]
+},
+{
+"annotated": "{先生|せんせい}は{学生|がくせい}に{良い|いい}{言葉|ことば}を{教えます|おしえます}。",
+"translation": "Teachers teach students good words.",
+"vocabUsed": [
+"先生",
+"学生",
+"良い",
+"言葉",
+"教える"
+]
+},
+{
+"annotated": "{若い|わかい}{頃|ころ}の{写真|しゃしん}を{家族|かぞく}に{見せました|みせました}。",
+"translation": "I showed old photos to my family.",
+"vocabUsed": [
+"若い",
+"写真",
+"家族",
+"見せる"
+]
+},
+{
+"annotated": "{外国|がいこく}から{来た|きた}{友達|ともだち}と{話しました|はなしました}。",
+"translation": "I talked with a friend who came from a foreign country.",
+"vocabUsed": [
+"外国",
+"来る",
+"友達",
+"話す"
+]
+},
+{
+"annotated": "{結婚|けっこん}した{友達|ともだち}に{会いました|あいました}。",
+"translation": "I met a friend who got married.",
+"vocabUsed": [
+"結婚",
+"友達",
+"会う"
+]
+},
+{
+"annotated": "{同じ|おなじ}{学校|がっこう}の{学生|がくせい}と{友達|ともだち}になりました。",
+"translation": "I became friends with a student from the same school.",
+"vocabUsed": [
+"同じ",
+"学校",
+"学生",
+"友達"
+]
+},
+{
+"annotated": "{子供|こども}の{頃|ころ}の{友達|ともだち}を{覚えています|おぼえています}。",
+"translation": "I remember friends from my childhood.",
+"vocabUsed": [
+"子供",
+"友達",
+"覚える"
+]
+},
+{
+"annotated": "{家族|かぞく}と{一緒|いっしょ}に{写真|しゃしん}を{撮りました|とりました}。",
+"translation": "I took a photo together with my family.",
+"vocabUsed": [
+"家族",
+"一緒",
+"写真",
+"取る"
+]
+},
+{
+"annotated": "{先生|せんせい}に{大切|たいせつ}なことを{教えてもらいました|おしえてもらいました}。",
+"translation": "My teacher taught me something important.",
+"vocabUsed": [
+"先生",
+"大切",
+"教える"
+]
+},
+{
+"annotated": "{電話|でんわ}で{友達|ともだち}と{長い|ながい}{時間|じかん}{話しました|はなしました}。",
+"translation": "I talked on the phone with my friend for a long time.",
+"vocabUsed": [
+"電話",
+"友達",
+"長い",
+"時間",
+"話す"
+]
+},
+{
+"annotated": "{言葉|ことば}の{意味|いみ}が{分からなくて|わからなくて}{困りました|こまりました}。",
+"translation": "I didn't understand the meaning of a word and was troubled.",
+"vocabUsed": [
+"言葉",
+"意味",
+"分かる",
+"困る"
+]
+},
+{
+"annotated": "{新聞|しんぶん}に{書いてある|かいてある}{文章|ぶんしょう}を{読みました|よみました}。",
+"translation": "I read an article written in the newspaper.",
+"vocabUsed": [
+"新聞",
+"書く",
+"文章",
+"読む"
+]
+},
+{
+"annotated": "{難しい|むずかしい}{質問|しつもん}に{答えました|こたえました}。",
+"translation": "I answered a difficult question.",
+"vocabUsed": [
+"難しい",
+"質問",
+"答える"
+]
+},
+{
+"annotated": "{英語|えいご}で{書いた|かいた}{文章|ぶんしょう}を{先生|せんせい}に{見せました|みせました}。",
+"translation": "I showed the teacher the essay I wrote in English.",
+"vocabUsed": [
+"英語",
+"書く",
+"文章",
+"先生",
+"見せる"
+]
+},
+{
+"annotated": "{電話|でんわ}で{仕事|しごと}の{話|はなし}をしました。",
+"translation": "I talked about work on the phone.",
+"vocabUsed": [
+"電話",
+"仕事",
+"話す"
+]
+},
+{
+"annotated": "{友達|ともだち}からの{電話|でんわ}を{待っています|まっています}。",
+"translation": "I'm waiting for a call from my friend.",
+"vocabUsed": [
+"友達",
+"電話",
+"待つ"
+]
+},
+{
+"annotated": "{今日|きょう}は{午後|ごご}から{仕事|しごと}があります。",
+"translation": "Today I have work from the afternoon.",
+"vocabUsed": [
+"今日",
+"午後",
+"仕事"
+]
+},
+{
+"annotated": "{昨日|きのう}は{夜|よる}おそくまで{勉強|べんきょう}しました。",
+"translation": "Yesterday I studied until late at night.",
+"vocabUsed": [
+"昨日",
+"夜",
+"勉強"
+]
+},
+{
+"annotated": "{明日|あした}の{朝|あさ}、{友達|ともだち}に{会います|あいます}。",
+"translation": "Tomorrow morning, I'll meet my friend.",
+"vocabUsed": [
+"明日",
+"朝",
+"友達",
+"会う"
+]
+},
+{
+"annotated": "{授業|じゅぎょう}は{九|く}時に{始まります|はじまります}。",
+"translation": "Class starts at nine o'clock.",
+"vocabUsed": [
+"授業",
+"九",
+"始まる"
+]
+},
+{
+"annotated": "{毎日|まいにち}{同じ|おなじ}{時間|じかん}に{学校|がっこう}に{行きます|いきます}。",
+"translation": "I go to school at the same time every day.",
+"vocabUsed": [
+"毎日",
+"同じ",
+"時間",
+"学校",
+"行く"
+]
+},
+{
+"annotated": "{仕事|しごと}が{終わった|おわった}{後|あと}、{友達|ともだち}と{映画|えいが}を{見ます|みます}。",
+"translation": "After work ends, I'll watch a movie with my friend.",
+"vocabUsed": [
+"仕事",
+"終わる",
+"後",
+"友達",
+"映画",
+"見る"
+]
+},
+{
+"annotated": "{今年|ことし}は{外国|がいこく}に{旅行|りょこう}したいです。",
+"translation": "This year, I want to travel to a foreign country.",
+"vocabUsed": [
+"今年",
+"外国",
+"旅行"
+]
+},
+{
+"annotated": "{朝|あさ}から{夜|よる}まで{勉強|べんきょう}しました。",
+"translation": "I studied from morning until night.",
+"vocabUsed": [
+"朝",
+"夜",
+"勉強"
+]
+},
+{
+"annotated": "{授業|じゅぎょう}の{前|まえ}に{練習|れんしゅう}します。",
+"translation": "I'll practice before class.",
+"vocabUsed": [
+"授業",
+"前",
+"練習"
+]
+},
+{
+"annotated": "この{道|みち}は{長くて|ながくて}、{歩く|あるく}のが{大変|たいへん}です。",
+"translation": "This road is long and it's tough to walk.",
+"vocabUsed": [
+"道",
+"長い",
+"歩く",
+"大変"
+]
+},
+{
+"annotated": "{新しい|あたらしい}{車|くるま}は{高かった|たかかった}です。",
+"translation": "The new car was expensive.",
+"vocabUsed": [
+"新しい",
+"車",
+"高い"
+]
+},
+{
+"annotated": "{山|やま}の{近く|ちかく}に{大きな|おおきな}{家|いえ}があります。",
+"translation": "There's a big house near the mountain.",
+"vocabUsed": [
+"山",
+"近い",
+"大きな",
+"家"
+]
+},
+{
+"annotated": "{小さな|ちいさな}{子供|こども}がたくさんいる{学校|がっこう}です。",
+"translation": "It's a school with many small children.",
+"vocabUsed": [
+"小さな",
+"子供",
+"学校"
+]
+},
+{
+"annotated": "{声|こえ}が{小さくて|ちいさくて}{聞こえません|きこえません}。",
+"translation": "Your voice is so small I can't hear it.",
+"vocabUsed": [
+"声",
+"小さい",
+"聞く"
+]
+},
+{
+"annotated": "この{問題|もんだい}は{難しくて|むずかしくて}{答え|こたえ}が{分かりません|わかりません}。",
+"translation": "This problem is so difficult I don't know the answer.",
+"vocabUsed": [
+"問題",
+"難しい",
+"答える",
+"分かる"
+]
+},
+{
+"annotated": "{大きな|おおきな}{声|こえ}で{話して|はなして}ください。",
+"translation": "Please speak in a loud voice.",
+"vocabUsed": [
+"大きな",
+"声",
+"話す"
+]
+},
+{
+"annotated": "{新しい|あたらしい}{言葉|ことば}を{覚える|おぼえる}のが{楽しい|たのしい}です。",
+"translation": "Learning new words is fun.",
+"vocabUsed": [
+"新しい",
+"言葉",
+"覚える",
+"楽しい"
+]
+},
+{
+"annotated": "{良い|いい}{仕事|しごと}を{見つけました|みつけました}。",
+"translation": "I found a good job.",
+"vocabUsed": [
+"良い",
+"仕事"
+]
+},
+{
+"annotated": "{大切|たいせつ}な{友達|ともだち}を{忘れる|わすれる}ことが{出来ません|できません}。",
+"translation": "I can't forget my important friends.",
+"vocabUsed": [
+"大切",
+"友達",
+"忘れる",
+"出来る"
+]
+},
+{
+"annotated": "{映画|えいが}を{見て|みて}、{楽しく|たのしく}なりました。",
+"translation": "After watching the movie, I became happy.",
+"vocabUsed": [
+"映画",
+"見る",
+"楽しい",
+"なる"
+]
+},
+{
+"annotated": "{難しい|むずかしい}{問題|もんだい}が{分かって|わかって}、{結構|けっこう}{良かった|よかった}です。",
+"translation": "I understood the difficult problem, and it was quite good.",
+"vocabUsed": [
+"難しい",
+"問題",
+"分かる",
+"結構",
+"良い"
+]
+},
+{
+"annotated": "{音楽|おんがく}を{聞く|きく}と{楽しい|たのしい}気分になります。",
+"translation": "When I listen to music, I feel happy.",
+"vocabUsed": [
+"音楽",
+"聞く",
+"楽しい"
+]
+},
+{
+"annotated": "{外国|がいこく}{語|ご}を{話す|はなす}のは{難しい|むずかしい}ですが、{面白い|おもしろい}です。",
+"translation": "Speaking foreign languages is difficult, but interesting.",
+"vocabUsed": [
+"外国",
+"話す",
+"難しい",
+"面白い"
+]
+},
+{
+"annotated": "スポーツをするのが{好き|すき}ですが、{時間|じかん}がありません。",
+"translation": "I like playing sports, but I don't have time.",
+"vocabUsed": [
+"スポーツ",
+"好き",
+"時間"
+]
+},
+{
+"annotated": "{大変|たいへん}でしたが、{仕事|しごと}を{終わらせました|おわらせました}。",
+"translation": "It was tough, but I finished the work.",
+"vocabUsed": [
+"大変",
+"仕事",
+"終わる"
+]
+},
+{
+"annotated": "{友達|ともだち}に{会えて|あえて}{楽しかった|たのしかった}です。",
+"translation": "It was fun being able to meet my friend.",
+"vocabUsed": [
+"友達",
+"会う",
+"楽しい"
+]
+},
+{
+"annotated": "{問題|もんだい}が{多くて|おおくて}{困っています|こまっています}。",
+"translation": "There are many problems and I'm in trouble.",
+"vocabUsed": [
+"問題",
+"多い",
+"困る"
+]
+},
+{
+"annotated": "{一番|いちばん}{好き|すき}な{音楽|おんがく}を{聞き|きき}ながら{勉強|べんきょう}します。",
+"translation": "I study while listening to my favorite music.",
+"vocabUsed": [
+"一番",
+"好き",
+"音楽",
+"聞く",
+"勉強"
+]
+},
+{
+"annotated": "{駅|えき}で{友達|ともだち}を{待っていました|まっていました}。",
+"translation": "I was waiting for my friend at the station.",
+"vocabUsed": [
+"駅",
+"友達",
+"待つ"
+]
+},
+{
+"annotated": "{写真|しゃしん}を{撮って|とって}{新聞|しんぶん}に{出しました|だしました}。",
+"translation": "I took a photo and submitted it to the newspaper.",
+"vocabUsed": [
+"写真",
+"取る",
+"新聞",
+"出す"
+]
+},
+{
+"annotated": "{先生|せんせい}に{呼ばれて|よばれて}{教室|きょうしつ}に{入りました|はいりました}。",
+"translation": "I was called by the teacher and entered the classroom.",
+"vocabUsed": [
+"先生",
+"呼ぶ",
+"入る"
+]
+},
+{
+"annotated": "{授業|じゅぎょう}が{始まる|はじまる}{前|まえ}に{本|ほん}を{出しました|だしました}。",
+"translation": "Before class started, I took out my book.",
+"vocabUsed": [
+"授業",
+"始まる",
+"前",
+"本",
+"出す"
+]
+},
+{
+"annotated": "{仕事|しごと}が{終わったら|おわったら}、{家|いえ}に{帰ります|かえります}。",
+"translation": "When work ends, I'll go home.",
+"vocabUsed": [
+"仕事",
+"終わる",
+"家",
+"帰る"
+]
+},
+{
+"annotated": "{山|やま}に{登って|のぼって}、{海|うみ}が{見えました|みえました}。",
+"translation": "I climbed the mountain and could see the sea.",
+"vocabUsed": [
+"山",
+"海",
+"見る"
+]
+},
+{
+"annotated": "{店|みせ}で{新しい|あたらしい}{本|ほん}を{買いました|かいました}。",
+"translation": "I bought a new book at the store.",
+"vocabUsed": [
+"店",
+"新しい",
+"本",
+"買う"
+]
+},
+{
+"annotated": "{友達|ともだち}に{大切|たいせつ}な{物|もの}を{見せました|みせました}。",
+"translation": "I showed something important to my friend.",
+"vocabUsed": [
+"友達",
+"大切",
+"物",
+"見せる"
+]
+},
+{
+"annotated": "{毎朝|まいあさ}、{水|みず}を{飲んで|のんで}から{仕事|しごと}に{行きます|いきます}。",
+"translation": "Every morning, I drink water before going to work.",
+"vocabUsed": [
+"水",
+"飲む",
+"仕事",
+"行く"
+]
+},
+{
+"annotated": "{外国|がいこく}から{来た|きた}{友達|ともだち}にホテルを{教えました|おしえました}。",
+"translation": "I told the friend who came from abroad about the hotel.",
+"vocabUsed": [
+"外国",
+"来る",
+"友達",
+"ホテル",
+"教える"
+]
+},
+{
+"annotated": "{子供|こども}の{頃|ころ}から{音楽|おんがく}が{好き|すき}です。",
+"translation": "I've liked music since childhood.",
+"vocabUsed": [
+"子供",
+"音楽",
+"好き"
+]
+},
+{
+"annotated": "{英語|えいご}の{新聞|しんぶん}を{毎日|まいにち}{読む|よむ}{練習|れんしゅう}をしています。",
+"translation": "I practice reading English newspapers every day.",
+"vocabUsed": [
+"英語",
+"新聞",
+"毎日",
+"読む",
+"練習"
+]
+},
+{
+"annotated": "{先生|せんせい}に{呼ばれて|よばれて}{質問|しつもん}に{答えました|こたえました}。",
+"translation": "I was called by the teacher and answered a question.",
+"vocabUsed": [
+"先生",
+"呼ぶ",
+"質問",
+"答える"
+]
+},
+{
+"annotated": "{昨日|きのう}{買った|かった}{本|ほん}は{面白くなかった|おもしろくなかった}です。",
+"translation": "The book I bought yesterday wasn't interesting.",
+"vocabUsed": [
+"昨日",
+"買う",
+"本",
+"面白い"
+]
+},
+{
+"annotated": "{旅行|りょこう}中に{撮った|とった}{写真|しゃしん}を{友達|ともだち}に{見せました|みせました}。",
+"translation": "I showed the photos from the trip to my friend.",
+"vocabUsed": [
+"旅行",
+"取る",
+"写真",
+"友達",
+"見せる"
+]
+},
+{
+"annotated": "{学校|がっこう}の{帰り|かえり}に{友達|ともだち}と{話しました|はなしました}。",
+"translation": "I talked with friends on the way home from school.",
+"vocabUsed": [
+"学校",
+"帰る",
+"友達",
+"話す"
+]
+},
+{
+"annotated": "{今日|きょう}は{体|からだ}が{悪い|わるい}ので、{病院|びょういん}に{行きます|いきます}。",
+"translation": "Because my body feels bad today, I'll go to the hospital.",
+"vocabUsed": [
+"今日",
+"体",
+"悪い",
+"病院",
+"行く"
+]
+},
+{
+"annotated": "{仕事|しごと}で{使う|つかう}{言葉|ことば}を{覚えました|おぼえました}。",
+"translation": "I memorized words used at work.",
+"vocabUsed": [
+"仕事",
+"使う",
+"言葉",
+"覚える"
+]
+},
+{
+"annotated": "{午後|ごご}の{授業|じゅぎょう}は{英語|えいご}です。",
+"translation": "The afternoon class is English.",
+"vocabUsed": [
+"午後",
+"授業",
+"英語"
+]
+},
+{
+"annotated": "{映画|えいが}が{終わったら|おわったら}{一緒|いっしょ}に{食べましょう|たべましょう}。",
+"translation": "After the movie ends, let's eat together.",
+"vocabUsed": [
+"映画",
+"終わる",
+"一緒",
+"食べる"
+]
+},
+{
+"annotated": "この{町|まち}は{海|うみ}と{山|やま}の{近く|ちかく}にあります。",
+"translation": "This town is near the sea and mountains.",
+"vocabUsed": [
+"町",
+"海",
+"山",
+"近い"
+]
+},
+{
+"annotated": "{家族|かぞく}みんなで{同じ|おなじ}{映画|えいが}を{見ました|みました}。",
+"translation": "The whole family watched the same movie together.",
+"vocabUsed": [
+"家族",
+"同じ",
+"映画",
+"見る"
+]
+},
+{
+"annotated": "{会社|かいしゃ}の{人|ひと}と{一緒|いっしょ}に{店|みせ}に{行きました|いきました}。",
+"translation": "I went to a store with people from the company.",
+"vocabUsed": [
+"会社",
+"人",
+"一緒",
+"店",
+"行く"
+]
+},
+{
+"annotated": "{昨日|きのう}の{夜|よる}、{友達|ともだち}から{電話|でんわ}がありました。",
+"translation": "Last night, I got a call from my friend.",
+"vocabUsed": [
+"昨日",
+"夜",
+"友達",
+"電話"
+]
+},
+{
+"annotated": "{毎日|まいにち}{新聞|しんぶん}を{読んで|よんで}、いろいろな{言葉|ことば}を{覚えます|おぼえます}。",
+"translation": "I read the newspaper every day and learn various words.",
+"vocabUsed": [
+"毎日",
+"新聞",
+"読む",
+"言葉",
+"覚える"
+]
+},
+{
+"annotated": "{学校|がっこう}が{終わったら|おわったら}{友達|ともだち}と{一緒|いっしょ}に{帰ります|かえります}。",
+"translation": "When school is over, I'll go home with my friend.",
+"vocabUsed": [
+"学校",
+"終わる",
+"友達",
+"一緒",
+"帰る"
+]
+},
+{
+"annotated": "{先生|せんせい}の{話|はなし}を{聞いて|きいて}、{意味|いみ}が{分かりました|わかりました}。",
+"translation": "I listened to the teacher's explanation and understood the meaning.",
+"vocabUsed": [
+"先生",
+"話す",
+"聞く",
+"意味",
+"分かる"
+]
+},
+{
+"annotated": "{旅行|りょこう}先のホテルの{部屋|へや}は{大きかった|おおきかった}です。",
+"translation": "The hotel room at the travel destination was large.",
+"vocabUsed": [
+"旅行",
+"ホテル",
+"部屋",
+"大きい"
+]
+},
+{
+"annotated": "{仕事|しごと}が{多い|おおい}{時|とき}は{大変|たいへん}です。",
+"translation": "When there's a lot of work, it's tough.",
+"vocabUsed": [
+"仕事",
+"多い",
+"大変"
+]
+},
+{
+"annotated": "{外国|がいこく}の{映画|えいが}を{見て|みて}、{英語|えいご}の{勉強|べんきょう}をします。",
+"translation": "I study English by watching foreign movies.",
+"vocabUsed": [
+"外国",
+"映画",
+"見る",
+"英語",
+"勉強"
+]
+},
+{
+"annotated": "{子供|こども}は{学校|がっこう}で{多く|おおく}の{友達|ともだち}を{作ります|つくります}。",
+"translation": "Children make many friends at school.",
+"vocabUsed": [
+"子供",
+"学校",
+"多い",
+"友達",
+"作る"
+]
+},
+{
+"annotated": "{先生|せんせい}は{学生|がくせい}の{質問|しつもん}に{答えます|こたえます}。",
+"translation": "Teachers answer students' questions.",
+"vocabUsed": [
+"先生",
+"学生",
+"質問",
+"答える"
+]
+},
+{
+"annotated": "{銀行|ぎんこう}に{行く|いく}{前|まえ}に、{仕事|しごと}を{終わらせました|おわらせました}。",
+"translation": "Before going to the bank, I finished my work.",
+"vocabUsed": [
+"銀行",
+"行く",
+"前",
+"仕事",
+"終わる"
+]
+},
+{
+"annotated": "{昨日|きのう}は{一日|いちにち}、{音楽|おんがく}を{聞いていました|きいていました}。",
+"translation": "Yesterday I was listening to music all day.",
+"vocabUsed": [
+"昨日",
+"音楽",
+"聞く"
+]
+},
+{
+"annotated": "{毎年|まいとし}、{夏|なつ}に{家族|かぞく}と{海|うみ}に{行きます|いきます}。",
+"translation": "Every year, I go to the sea with my family in summer.",
+"vocabUsed": [
+"夏",
+"家族",
+"海",
+"行く"
+]
+},
+{
+"annotated": "{友達|ともだち}のために{料理|りょうり}を{作りました|つくりました}。",
+"translation": "I made food for my friend.",
+"vocabUsed": [
+"友達",
+"料理",
+"作る"
+]
+},
+{
+"annotated": "{会社|かいしゃ}の{近く|ちかく}の{銀行|ぎんこう}で{金|かね}を{出しました|だしました}。",
+"translation": "I took out money at the bank near the company.",
+"vocabUsed": [
+"会社",
+"近い",
+"銀行",
+"金",
+"出す"
+]
+},
+{
+"annotated": "{英語|えいご}の{問題|もんだい}に{答えられました|こたえられました}。",
+"translation": "I was able to answer the English question.",
+"vocabUsed": [
+"英語",
+"問題",
+"答える",
+"出来る"
+]
+},
+{
+"annotated": "{自分|じぶん}の{名前|なまえ}を{英語|えいご}で{書きました|かきました}。",
+"translation": "I wrote my name in English.",
+"vocabUsed": [
+"自分",
+"名前",
+"英語",
+"書く"
+]
+},
+{
+"annotated": "{若い|わかい}{頃|ころ}、{外国|がいこく}に{旅行|りょこう}しました。",
+"translation": "When I was young, I traveled to a foreign country.",
+"vocabUsed": [
+"若い",
+"外国",
+"旅行"
+]
+},
+{
+"annotated": "{友達|ともだち}に{電話|でんわ}したが、{答えなかった|こたえなかった}。",
+"translation": "I called my friend, but they didn't answer.",
+"vocabUsed": [
+"友達",
+"電話",
+"答える"
+]
+},
+{
+"annotated": "{山|やま}の{上|うえ}から{見た|みた}{海|うみ}はとても{大きかった|おおきかった}です。",
+"translation": "The sea seen from the top of the mountain was very large.",
+"vocabUsed": [
+"山",
+"上",
+"見る",
+"海",
+"大きい"
+]
+},
+{
+"annotated": "{英語|えいご}を{覚える|おぼえる}のは{大変|たいへん}ですが、{楽しい|たのしい}です。",
+"translation": "Memorizing English is tough, but fun.",
+"vocabUsed": [
+"英語",
+"覚える",
+"大変",
+"楽しい"
+]
+},
+{
+"annotated": "{今年|ことし}は{仕事|しごと}が{多くて|おおくて}{旅行|りょこう}に{行けませんでした|いけませんでした}。",
+"translation": "This year there was so much work that I couldn't go on a trip.",
+"vocabUsed": [
+"今年",
+"仕事",
+"多い",
+"旅行",
+"行く"
+]
+},
+{
+"annotated": "{同じ|おなじ}{問題|もんだい}を{何度|なんど}も{練習|れんしゅう}しました。",
+"translation": "I practiced the same problem many times.",
+"vocabUsed": [
+"同じ",
+"問題",
+"練習"
+]
+},
+{
+"annotated": "{夜|よる}に{一人|ひとり}で{歩いて|あるいて}{帰りました|かえりました}。",
+"translation": "I walked home alone at night.",
+"vocabUsed": [
+"夜",
+"一人",
+"歩く",
+"帰る"
+]
+},
+{
+"annotated": "{先生|せんせい}に{大切|たいせつ}な{言葉|ことば}を{教えていただきました|おしえていただきました}。",
+"translation": "My teacher taught me important words.",
+"vocabUsed": [
+"先生",
+"大切",
+"言葉",
+"教える"
+]
+},
+{
+"annotated": "{外国語|がいこくご}で{書いた|かいた}{文章|ぶんしょう}を{先生|せんせい}に{見せました|みせました}。",
+"translation": "I showed the teacher a composition I wrote in a foreign language.",
+"vocabUsed": [
+"外国",
+"書く",
+"文章",
+"先生",
+"見せる"
+]
+},
+{
+"annotated": "{会社|かいしゃ}の{仕事|しごと}を{家|いえ}に{持ち帰りました|もちかえりました}。",
+"translation": "I brought work from the company home.",
+"vocabUsed": [
+"会社",
+"仕事",
+"家"
+]
+},
+{
+"annotated": "{友達|ともだち}と{同じ|おなじ}{学校|がっこう}に{通いたいです|かよいたいです}。",
+"translation": "I want to attend the same school as my friend.",
+"vocabUsed": [
+"友達",
+"同じ",
+"学校"
+]
+},
+{
+"annotated": "{銀行|ぎんこう}で{金|かね}を{出して|だして}、{店|みせ}で{物|もの}を{買いました|かいました}。",
+"translation": "I took out money at the bank and bought things at the store.",
+"vocabUsed": [
+"銀行",
+"金",
+"出す",
+"店",
+"物",
+"買う"
+]
+},
+{
+"annotated": "{先生|せんせい}が{質問|しつもん}に{答えてくれました|こたえてくれました}。",
+"translation": "The teacher answered my question for me.",
+"vocabUsed": [
+"先生",
+"質問",
+"答える"
+]
+},
+{
+"annotated": "{映画|えいが}の{話|はなし}が{面白くて|おもしろくて}、{友達|ともだち}に{話しました|はなしました}。",
+"translation": "The story of the movie was interesting, so I told my friend.",
+"vocabUsed": [
+"映画",
+"話す",
+"面白い",
+"友達"
+]
+},
+{
+"annotated": "{音楽|おんがく}の{先生|せんせい}は{毎日|まいにち}{練習|れんしゅう}するように{言います|いいます}。",
+"translation": "The music teacher says to practice every day.",
+"vocabUsed": [
+"音楽",
+"先生",
+"毎日",
+"練習",
+"言う"
+]
+},
+{
+"annotated": "{古い|ふるい}{写真|しゃしん}を{見て|みて}、{昔|むかし}の{友達|ともだち}を{思いました|おもいました}。",
+"translation": "Looking at old photos, I thought of old friends.",
+"vocabUsed": [
+"写真",
+"見る",
+"友達"
+]
+},
+{
+"annotated": "{体|からだ}が{弱くて|よわくて}スポーツが{出来ません|できません}。",
+"translation": "My body is weak and I can't play sports.",
+"vocabUsed": [
+"体",
+"スポーツ",
+"出来る"
+]
+},
+{
+"annotated": "バスが{来る|くる}のを{駅|えき}で{待っています|まっています}。",
+"translation": "I'm waiting at the station for the bus to come.",
+"vocabUsed": [
+"バス",
+"来る",
+"駅",
+"待つ"
+]
+},
+{
+"annotated": "{夏|なつ}に{海|うみ}に{行って|いって}、とても{楽しかった|たのしかった}です。",
+"translation": "I went to the sea in summer and it was very fun.",
+"vocabUsed": [
+"夏",
+"海",
+"行く",
+"楽しい"
+]
+},
+{
+"annotated": "{外国語|がいこくご}の{授業|じゅぎょう}は{難しい|むずかしい}です。",
+"translation": "Foreign language class is difficult.",
+"vocabUsed": [
+"外国",
+"授業",
+"難しい"
+]
+},
+{
+"annotated": "{友達|ともだち}の{家|いえ}に{行って|いって}、{料理|りょうり}を{作りました|つくりました}。",
+"translation": "I went to my friend's house and made food.",
+"vocabUsed": [
+"友達",
+"家",
+"行く",
+"料理",
+"作る"
+]
+},
+{
+"annotated": "{仕事|しごと}で{使う|つかう}{言葉|ことば}を{覚える|おぼえる}ために、{毎日|まいにち}{練習|れんしゅう}します。",
+"translation": "I practice every day to memorize words used at work.",
+"vocabUsed": [
+"仕事",
+"使う",
+"言葉",
+"覚える",
+"毎日",
+"練習"
+]
+},
+{
+"annotated": "{先生|せんせい}は{授業|じゅぎょう}の{前|まえ}に{問題|もんだい}を{書いておきます|かいておきます}。",
+"translation": "The teacher writes the problems before class.",
+"vocabUsed": [
+"先生",
+"授業",
+"前",
+"問題",
+"書く"
+]
+},
+{
+"annotated": "{学生|がくせい}{時代|じだい}に{多く|おおく}の{良い|いい}{友達|ともだち}に{会いました|あいました}。",
+"translation": "During my student days, I met many good friends.",
+"vocabUsed": [
+"学生",
+"多い",
+"良い",
+"友達",
+"会う"
+]
+},
+{
+"annotated": "{昨日|きのう}の{映画|えいが}はとても{面白くて|おもしろくて}、{長かった|ながかった}です。",
+"translation": "Yesterday's movie was very interesting and long.",
+"vocabUsed": [
+"昨日",
+"映画",
+"面白い",
+"長い"
+]
+},
+{
+"annotated": "{毎日|まいにち}、{少し|すこし}ずつ{新しい|あたらしい}{言葉|ことば}を{覚えます|おぼえます}。",
+"translation": "Every day, I memorize new words little by little.",
+"vocabUsed": [
+"毎日",
+"少し",
+"新しい",
+"言葉",
+"覚える"
+]
+},
+{
+"annotated": "{病院|びょういん}の{先生|せんせい}に{体|からだ}の{悪い|わるい}ところを{話しました|はなしました}。",
+"translation": "I told the hospital doctor about what was wrong with my body.",
+"vocabUsed": [
+"病院",
+"先生",
+"体",
+"悪い",
+"話す"
+]
+},
+{
+"annotated": "{外国|がいこく}の{人|ひと}と{話す|はなす}{時|とき}は{英語|えいご}を{使います|つかいます}。",
+"translation": "When talking with foreign people, I use English.",
+"vocabUsed": [
+"外国",
+"人",
+"話す",
+"英語",
+"使う"
+]
+},
+{
+"annotated": "{夏|なつ}の{夜|よる}に{友達|ともだち}と{海|うみ}に{行きました|いきました}。",
+"translation": "I went to the sea with friends on a summer night.",
+"vocabUsed": [
+"夏",
+"夜",
+"友達",
+"海",
+"行く"
+]
+},
+{
+"annotated": "{会社|かいしゃ}の{近く|ちかく}に{良い|いい}{店|みせ}があります。",
+"translation": "There's a good store near the company.",
+"vocabUsed": [
+"会社",
+"近い",
+"良い",
+"店"
+]
+},
+{
+"annotated": "{大学|だいがく}の{授業|じゅぎょう}は{学校|がっこう}より{難しい|むずかしい}です。",
+"translation": "University classes are more difficult than school.",
+"vocabUsed": [
+"大学",
+"授業",
+"学校",
+"難しい"
+]
+},
+{
+"annotated": "{友達|ともだち}に{大切|たいせつ}な{本|ほん}を{見せてもらいました|みせてもらいました}。",
+"translation": "My friend showed me an important book.",
+"vocabUsed": [
+"友達",
+"大切",
+"本",
+"見せる"
+]
+},
+{
+"annotated": "{今年|ことし}、{結婚|けっこん}した{友達|ともだち}に{会いました|あいました}。",
+"translation": "This year, I met a friend who got married.",
+"vocabUsed": [
+"今年",
+"結婚",
+"友達",
+"会う"
+]
+},
+{
+"annotated": "{子供|こども}の{頃|ころ}から、{毎日|まいにち}{本|ほん}を{読んでいます|よんでいます}。",
+"translation": "Since childhood, I've been reading books every day.",
+"vocabUsed": [
+"子供",
+"毎日",
+"本",
+"読む"
+]
+},
+{
+"annotated": "{旅行|りょこう}で{外国|がいこく}の{人|ひと}と{話して|はなして}、{楽しかった|たのしかった}です。",
+"translation": "I talked with people from foreign countries on my trip and it was fun.",
+"vocabUsed": [
+"旅行",
+"外国",
+"人",
+"話す",
+"楽しい"
+]
+},
+{
+"annotated": "{朝|あさ}{起きたら|おきたら}、まず{水|みず}を{飲みます|のみます}。",
+"translation": "When I wake up in the morning, I first drink water.",
+"vocabUsed": [
+"朝",
+"起きる",
+"水",
+"飲む"
+]
+},
+{
+"annotated": "この{本|ほん}の{意味|いみ}が{分からないので|わからないので}{先生|せんせい}に{質問します|しつもんします}。",
+"translation": "Because I don't understand the meaning of this book, I'll ask the teacher.",
+"vocabUsed": [
+"本",
+"意味",
+"分かる",
+"先生",
+"質問"
+]
+},
+{
+"annotated": "{花|はな}を{買って|かって}{家|いえ}に{置きました|おきました}。",
+"translation": "I bought flowers and placed them in the house.",
+"vocabUsed": [
+"花",
+"買う",
+"家",
+"置く"
+]
+},
+{
+"annotated": "{木|き}の{下|した}で{勉強|べんきょう}するのが{好き|すき}です。",
+"translation": "I like studying under a tree.",
+"vocabUsed": [
+"木",
+"下",
+"勉強",
+"好き"
+]
+},
+{
+"annotated": "{足|あし}が{痛くて|いたくて}{歩けません|あるけません}。",
+"translation": "My leg hurts and I can't walk.",
+"vocabUsed": [
+"足",
+"歩く"
+]
+},
+{
+"annotated": "{手|て}を{上げて|あげて}{質問|しつもん}に{答えました|こたえました}。",
+"translation": "I raised my hand and answered the question.",
+"vocabUsed": [
+"手",
+"上げる",
+"質問",
+"答える"
+]
+},
+{
+"annotated": "{目|め}が{悪くて|わるくて}{新聞|しんぶん}が{読めません|よめません}。",
+"translation": "My eyes are bad and I can't read the newspaper.",
+"vocabUsed": [
+"目",
+"悪い",
+"新聞",
+"読む"
+]
+},
+{
+"annotated": "{頭|あたま}が{痛い|いたい}ので、{今日|きょう}は{早く|はやく}{寝ます|ねます}。",
+"translation": "My head hurts, so I'll go to sleep early today.",
+"vocabUsed": [
+"頭",
+"今日",
+"早い",
+"寝る"
+]
+},
+{
+"annotated": "{口|くち}で{答える|こたえる}のが{難しい|むずかしい}です。",
+"translation": "It's difficult to answer out loud.",
+"vocabUsed": [
+"口",
+"答える",
+"難しい"
+]
+},
+{
+"annotated": "{全部|ぜんぶ}の{問題|もんだい}に{答えられました|こたえられました}。",
+"translation": "I was able to answer all the problems.",
+"vocabUsed": [
+"全部",
+"問題",
+"答える",
+"出来る"
+]
+},
+{
+"annotated": "{自分|じぶん}で{料理|りょうり}を{作る|つくる}ことが{出来ます|できます}。",
+"translation": "I can make food by myself.",
+"vocabUsed": [
+"自分",
+"料理",
+"作る",
+"出来る"
+]
+},
+{
+"annotated": "{先|さき}に{帰る|かえる}ので、{後|あと}で{電話|でんわ}します。",
+"translation": "I'm leaving first, so I'll call you later.",
+"vocabUsed": [
+"先",
+"帰る",
+"後",
+"電話"
+]
+},
+{
+"annotated": "{次|つぎ}の{授業|じゅぎょう}では{英語|えいご}の{文章|ぶんしょう}を{書きます|かきます}。",
+"translation": "In the next class, I'll write an English composition.",
+"vocabUsed": [
+"次",
+"授業",
+"英語",
+"文章",
+"書く"
+]
+},
+{
+"annotated": "{誰|だれ}が{一番|いちばん}{早く|はやく}{走れます|はしれます}か。",
+"translation": "Who can run the fastest?",
+"vocabUsed": [
+"誰",
+"一番",
+"早い",
+"走る"
+]
+},
+{
+"annotated": "{どの|どの}{店|みせ}の{料理|りょうり}が{一番|いちばん}{安い|やすい}ですか。",
+"translation": "Which store's food is the cheapest?",
+"vocabUsed": [
+"店",
+"料理",
+"一番",
+"安い"
+]
+},
+{
+"annotated": "{何|なに}を{食べる|たべる}か{分かりません|わかりません}。",
+"translation": "I don't know what to eat.",
+"vocabUsed": [
+"何",
+"食べる",
+"分かる"
+]
+},
+{
+"annotated": "{なぜ|なぜ}{学校|がっこう}に{来なかった|こなかった}か{分かりません|わかりません}。",
+"translation": "I don't know why they didn't come to school.",
+"vocabUsed": [
+"学校",
+"来る",
+"分かる"
+]
+},
+{
+"annotated": "{いつ|いつ}{仕事|しごと}が{終わる|おわる}か{知りません|しりません}。",
+"translation": "I don't know when work will end.",
+"vocabUsed": [
+"仕事",
+"終わる",
+"知る"
+]
+},
+{
+"annotated": "{どこ|どこ}に{住む|すむ}か{まだ|まだ}{決めていません|きめていません}。",
+"translation": "I haven't decided yet where to live.",
+"vocabUsed": [
+"どこ",
+"住む",
+"まだ"
+]
+},
+{
+"annotated": "{もっと|もっと}{勉強|べんきょう}すれば{出来る|できる}ようになります。",
+"translation": "If you study more, you'll become able to do it.",
+"vocabUsed": [
+"もっと",
+"勉強",
+"出来る"
+]
+},
+{
+"annotated": "{もう|もう}{全部|ぜんぶ}{食べて|たべて}しまいました。",
+"translation": "I've already eaten everything.",
+"vocabUsed": [
+"もう",
+"全部",
+"食べる"
+]
+},
+{
+"annotated": "{また|また}{同じ|おなじ}{問題|もんだい}を{忘れました|わすれました}。",
+"translation": "I forgot the same problem again.",
+"vocabUsed": [
+"また",
+"同じ",
+"問題",
+"忘れる"
+]
+},
+{
+"annotated": "{それから|それから}{一緒|いっしょ}に{歩いて|あるいて}{帰りました|かえりました}。",
+"translation": "After that, we walked home together.",
+"vocabUsed": [
+"それから",
+"一緒",
+"歩く",
+"帰る"
+]
+},
+{
+"annotated": "{でも|でも}、{仕事|しごと}があるので{行けません|いけません}。",
+"translation": "But since I have work, I can't go.",
+"vocabUsed": [
+"仕事",
+"行く"
+]
+},
+{
+"annotated": "{いつも|いつも}{同じ|おなじ}{道|みち}を{歩いて|あるいて}{会社|かいしゃ}に{行きます|いきます}。",
+"translation": "I always walk the same road to the company.",
+"vocabUsed": [
+"いつも",
+"同じ",
+"道",
+"歩く",
+"会社",
+"行く"
+]
+},
+{
+"annotated": "{まだ|まだ}{答え|こたえ}が{分かりません|わかりません}。",
+"translation": "I still don't understand the answer.",
+"vocabUsed": [
+"まだ",
+"答える",
+"分かる"
+]
+},
+{
+"annotated": "{どう|どう}したら{英語|えいご}が{上手|じょうず}になれますか。",
+"translation": "How can I get better at English?",
+"vocabUsed": [
+"英語",
+"上げる"
+]
+},
+{
+"annotated": "{こんな|こんな}{難しい|むずかしい}{問題|もんだい}は{初めて|はじめて}です。",
+"translation": "This is my first time with such a difficult problem.",
+"vocabUsed": [
+"難しい",
+"問題",
+"初めて"
+]
+},
+{
+"annotated": "{初めて|はじめて}{外国|がいこく}に{行った|いった}{時|とき}、{多く|おおく}の{写真|しゃしん}を{撮りました|とりました}。",
+"translation": "When I went to a foreign country for the first time, I took many photos.",
+"vocabUsed": [
+"初めて",
+"外国",
+"行く",
+"多い",
+"写真",
+"取る"
+]
+},
+{
+"annotated": "{この|この}{色|いろ}の{花|はな}が{一番|いちばん}{好き|すき}です。",
+"translation": "I like this color of flower the best.",
+"vocabUsed": [
+"色",
+"花",
+"一番",
+"好き"
+]
+},
+{
+"annotated": "{赤い|あかい}{花|はな}を{買って|かって}{部屋|へや}に{置きました|おきました}。",
+"translation": "I bought red flowers and placed them in the room.",
+"vocabUsed": [
+"花",
+"買う",
+"部屋",
+"置く"
+]
+},
+{
+"annotated": "スポーツをして{体|からだ}を{強く|つよく}したいです。",
+"translation": "I want to play sports to make my body stronger.",
+"vocabUsed": [
+"スポーツ",
+"体",
+"強い"
+]
+},
+{
+"annotated": "{百|ひゃく}の{言葉|ことば}を{覚えました|おぼえました}。",
+"translation": "I memorized a hundred words.",
+"vocabUsed": [
+"百",
+"言葉",
+"覚える"
+]
+},
+{
+"annotated": "{千|せん}の{人|ひと}が{会社|かいしゃ}で{働いています|はたらいています}。",
+"translation": "A thousand people work at the company.",
+"vocabUsed": [
+"千",
+"人",
+"会社",
+"働く"
+]
+},
+{
+"annotated": "{一万|いちまん}{円|えん}の{本|ほん}を{買いました|かいました}。",
+"translation": "I bought a book that costs ten thousand yen.",
+"vocabUsed": [
+"万",
+"本",
+"買う"
+]
+},
+{
+"annotated": "{七|なな}つの{問題|もんだい}に{答えました|こたえました}。",
+"translation": "I answered seven questions.",
+"vocabUsed": [
+"七",
+"問題",
+"答える"
+]
+},
+{
+"annotated": "{六|ろく}{人|にん}の{学生|がくせい}が{授業|じゅぎょう}に{来ました|きました}。",
+"translation": "Six students came to class.",
+"vocabUsed": [
+"六",
+"人",
+"学生",
+"授業",
+"来る"
+]
+},
+{
+"annotated": "{八|はち}{時|じ}に{起きて|おきて}{学校|がっこう}に{行きます|いきます}。",
+"translation": "I wake up at eight and go to school.",
+"vocabUsed": [
+"八",
+"起きる",
+"学校",
+"行く"
+]
+},
+{
+"annotated": "{五|ご}{人|にん}の{友達|ともだち}と{一緒|いっしょ}に{映画|えいが}を{見ました|みました}。",
+"translation": "I watched a movie together with five friends.",
+"vocabUsed": [
+"五",
+"人",
+"友達",
+"一緒",
+"映画",
+"見る"
+]
+},
+{
+"annotated": "{四|よん}つの{言葉|ことば}の{意味|いみ}が{分かりません|わかりません}。",
+"translation": "I don't know the meaning of four words.",
+"vocabUsed": [
+"四",
+"言葉",
+"意味",
+"分かる"
+]
+},
+{
+"annotated": "{三|さん}{人|にん}で{料理|りょうり}を{作りました|つくりました}。",
+"translation": "Three of us made food together.",
+"vocabUsed": [
+"三",
+"人",
+"料理",
+"作る"
+]
+},
+{
+"annotated": "{二|に}{つ}の{問題|もんだい}が{難しかった|むずかしかった}です。",
+"translation": "Two of the problems were difficult.",
+"vocabUsed": [
+"二",
+"問題",
+"難しい"
+]
+},
+{
+"annotated": "{一|ひとつ}つの{物|もの}を{大切|たいせつ}に{使います|つかいます}。",
+"translation": "I carefully use one thing.",
+"vocabUsed": [
+"一つ",
+"物",
+"大切",
+"使う"
+]
+},
+{
+"annotated": "{十|じゅう}{人|にん}の{学生|がくせい}が{答えを|こたえを}{出しました|だしました}。",
+"translation": "Ten students gave answers.",
+"vocabUsed": [
+"十",
+"人",
+"学生",
+"答える",
+"出す"
+]
+},
+{
+"annotated": "{乗る|のる}バスを{間違えて|まちがえて}、{駅|えき}の{近く|ちかく}で{降りました|おりました}。",
+"translation": "I got on the wrong bus and got off near the station.",
+"vocabUsed": [
+"乗る",
+"バス",
+"駅",
+"近い"
+]
+},
+{
+"annotated": "テレビで{見た|みた}{映画|えいが}の{話|はなし}を{友達|ともだち}に{しました|しました}。",
+"translation": "I told my friend about the movie I watched on TV.",
+"vocabUsed": [
+"テレビ",
+"見る",
+"映画",
+"話す",
+"友達"
+]
+},
+{
+"annotated": "{大変|たいへん}でしたが、{全部|ぜんぶ}の{仕事|しごと}を{終わらせました|おわらせました}。",
+"translation": "It was tough, but I finished all the work.",
+"vocabUsed": [
+"大変",
+"全部",
+"仕事",
+"終わる"
+]
+},
+{
+"annotated": "{結構|けっこう}{難しい|むずかしい}ですが、{毎日|まいにち}{練習|れんしゅう}しています。",
+"translation": "It's quite difficult, but I practice every day.",
+"vocabUsed": [
+"結構",
+"難しい",
+"毎日",
+"練習"
+]
+},
+{
+"annotated": "{家庭|かてい}で{料理|りょうり}を{作る|つくる}のは{楽しい|たのしい}です。",
+"translation": "Making food at home is fun.",
+"vocabUsed": [
+"家庭",
+"料理",
+"作る",
+"楽しい"
+]
+},
+{
+"annotated": "{違う|ちがう}{意味|いみ}の{言葉|ことば}を{使って|つかって}しまいました。",
+"translation": "I accidentally used a word with a different meaning.",
+"vocabUsed": [
+"違う",
+"意味",
+"言葉",
+"使う"
+]
+},
+{
+"annotated": "{生まれた|うまれた}{国|くに}の{話|はなし}を{友達|ともだち}に{しました|しました}。",
+"translation": "I told my friend about the country I was born in.",
+"vocabUsed": [
+"生まれる",
+"国",
+"話す",
+"友達"
+]
+},
+{
+"annotated": "{風|かぜ}が{強い|つよい}ので、{外|そと}を{歩く|あるく}のが{大変|たいへん}です。",
+"translation": "Because the wind is strong, walking outside is tough.",
+"vocabUsed": [
+"風",
+"強い",
+"外",
+"歩く",
+"大変"
+]
+},
+{
+"annotated": "{今日|きょう}は{雨|あめ}が{降っている|ふっている}ので、{外|そと}に{出る|でる}のをやめました。",
+"translation": "Since it's raining today, I decided not to go outside.",
+"vocabUsed": [
+"今日",
+"雨",
+"外",
+"出る"
+]
+},
+{
+"annotated": "{雨|あめ}の{日|ひ}は{家|いえ}で{本|ほん}を{読む|よむ}か、{音楽|おんがく}を{聞く|きく}のが{好き|すき}です。",
+"translation": "On rainy days, I like to read a book or listen to music at home.",
+"vocabUsed": [
+"雨",
+"家",
+"本",
+"読む",
+"音楽",
+"聞く",
+"好き"
+]
+},
+{
+"annotated": "{今日|きょう}は{気温|きおん}が{低い|ひくい}ので、{体|からだ}に{気をつけて|きをつけて}ください。",
+"translation": "The temperature is low today, so please take care of your health.",
+"vocabUsed": [
+"今日",
+"低い",
+"体"
+]
+},
+{
+"annotated": "あの{建物|たてもの}は{低い|ひくい}けど、{中|なか}はとても{広い|ひろい}です。",
+"translation": "That building is short, but the inside is very spacious.",
+"vocabUsed": [
+"低い",
+"中"
+]
+},
+{
+"annotated": "{雨|あめ}が{降って|ふって}いて{気温|きおん}も{低い|ひくい}から、{今日|きょう}は{仕事|しごと}に{行く|いく}のが{大変|たいへん}でした。",
+"translation": "With rain falling and the temperature low, going to work today was really tough.",
+"vocabUsed": [
+"雨",
+"低い",
+"今日",
+"仕事",
+"行く",
+"大変"
+]
+},
+{
+"annotated": "{犬|いぬ}に{名前|なまえ}を{付ける|つける}のは{難しい|むずかしい}。",
+"translation": "Naming a dog is difficult.",
+"vocabUsed": ["犬", "名前", "付ける", "難しい"]
+},
+{
+"annotated": "{子供|こども}は{自分|じぶん}の{本|ほん}にシールを{付けた|つけた}。",
+"translation": "The child put stickers on their books.",
+"vocabUsed": ["子供", "自分", "本", "付ける"]
+},
+{
+"annotated": "{駅|えき}で{雑誌|ざっし}を{買って|かって}、{電車|でんしゃ}の{中|なか}で{読んだ|よんだ}。",
+"translation": "I bought a magazine at the station and read it on the train.",
+"vocabUsed": ["駅", "雑誌", "買う", "中", "読む"]
+},
+{
+"annotated": "この{雑誌|ざっし}には{有名|ゆうめい}な{人|ひと}の{写真|しゃしん}がたくさん{載って|のって}いる。",
+"translation": "This magazine has many photos of famous people.",
+"vocabUsed": ["雑誌", "有名", "人", "写真"]
+},
+{
+"annotated": "{子供|こども}が{花|はな}の{絵|え}を{描いて|かいて}くれた。",
+"translation": "The child drew me a picture of flowers.",
+"vocabUsed": ["子供", "花", "絵"]
+},
+{
+"annotated": "{美術館|びじゅつかん}で{有名|ゆうめい}な{絵|え}を{見た|みた}。",
+"translation": "I saw famous paintings at the art museum.",
+"vocabUsed": ["有名", "絵", "見る"]
+},
+{
+"annotated": "この{映画|えいが}に{出て|でて}いる{俳優|はいゆう}はとても{有名|ゆうめい}です。",
+"translation": "The actor in this movie is very famous.",
+"vocabUsed": ["映画", "出る", "有名"]
+},
+{
+"annotated": "あの{店|みせ}の{料理|りょうり}は{有名|ゆうめい}で、いつも{人|ひと}がたくさんいる。",
+"translation": "That restaurant's food is so famous there are always a lot of people there.",
+"vocabUsed": ["店", "料理", "有名", "人"]
+},
+{
+"annotated": "{新しい|あたらしい}{靴|くつ}を{買う|かう}ために{駅|えき}の{近く|ちかく}の{店|みせ}に{行った|いった}。",
+"translation": "I went to a store near the station to buy new shoes.",
+"vocabUsed": ["新しい", "靴", "買う", "駅", "近く", "店", "行く"]
+},
+{
+"annotated": "この{靴|くつ}は{色|いろ}もデザインも{好き|すき}だ。",
+"translation": "I like both the color and design of these shoes.",
+"vocabUsed": ["靴", "色", "好き"]
+},
+{
+"annotated": "{我|われ}は{外国|がいこく}で{生まれた|うまれた}が、{今|いま}は{日本|にほん}に{住んで|すんで}いる。",
+"translation": "I was born in a foreign country but now live in Japan.",
+"vocabUsed": ["我", "外国", "生まれる", "今", "住む"]
+},
+{
+"annotated": "{我|われ}が{国|くに}の{文化|ぶんか}を{大切|たいせつ}に{思って|おもって}いる。",
+"translation": "I cherish the culture of my country.",
+"vocabUsed": ["我", "国", "大切"]
+},
+{
+"annotated": "{友達|ともだち}の{犬|いぬ}は{小さくて|ちいさくて}とてもかわいい。",
+"translation": "My friend's dog is small and very cute.",
+"vocabUsed": ["友達", "犬", "小さい"]
+},
+{
+"annotated": "{毎日|まいにち}{犬|いぬ}と{一緒|いっしょ}に{朝|あさ}{走る|はしる}のが{好き|すき}だ。",
+"translation": "I like running every morning with my dog.",
+"vocabUsed": ["毎日", "犬", "一緒", "朝", "走る", "好き"]
+},
+{
+"annotated": "{大人|おとな}になっても、この{映画|えいが}が{好き|すき}だ。",
+"translation": "Even as an adult, I still like this movie.",
+"vocabUsed": ["大人", "映画", "好き"]
+},
+{
+"annotated": "{子供|こども}の{時|とき}は{大人|おとな}になりたかったが、{大人|おとな}になると{仕事|しごと}が{大変|たいへん}だ。",
+"translation": "When I was a child I wanted to become an adult, but once you do, work is tough.",
+"vocabUsed": ["子供", "大人", "仕事", "大変"]
+},
+{
+"annotated": "この{荷物|にもつ}は5キログラムもあって、{持つ|もつ}のが{大変|たいへん}だ。",
+"translation": "This luggage weighs 5 kilograms so it's hard to carry.",
+"vocabUsed": ["キログラム", "持つ", "大変"]
+},
+{
+"annotated": "スーパーで2キログラムの{肉|にく}を{買った|かった}。",
+"translation": "I bought 2 kilograms of meat at the supermarket.",
+"vocabUsed": ["キログラム", "買う"]
+},
+{
+"annotated": "もう{少し|すこし}ゆっくり{話して|はなして}ください。",
+"translation": "Please speak a little more slowly.",
+"vocabUsed": ["少し", "話す", "ください"]
+},
+{
+"annotated": "{質問|しつもん}があれば、いつでも{聞いて|きいて}ください。",
+"translation": "If you have any questions, please ask at any time.",
+"vocabUsed": ["質問", "聞く", "ください"]
+},
+{
+"annotated": "{駅|えき}から{海|うみ}まで10キロメートルも{歩いた|あるいた}。",
+"translation": "I walked all of 10 kilometers from the station to the sea.",
+"vocabUsed": ["駅", "海", "キロメートル", "歩く"]
+},
+{
+"annotated": "{学校|がっこう}まで3キロメートルあるので、{毎日|まいにち}{走って|はしって}{行く|いく}。",
+"translation": "It's 3 kilometers to school, so I run there every day.",
+"vocabUsed": ["学校", "キロメートル", "毎日", "走る", "行く"]
+},
+{
+"annotated": "この{紙|かみ}を{切って|きって}{絵|え}を{作ろう|つくろう}。",
+"translation": "Let's cut this paper and make a picture.",
+"vocabUsed": ["紙", "切る", "絵", "作る"]
+},
+{
+"annotated": "{電話|でんわ}を{切る|きる}前に、{明日|あした}の{約束|やくそく}を{確認|かくにん}した。",
+"translation": "Before hanging up, I confirmed tomorrow's plans.",
+"vocabUsed": ["電話", "切る", "明日"]
+},
+{
+"annotated": "この{家|いえ}は{広くて|ひろくて}{部屋|へや}がたくさんある。",
+"translation": "This house is spacious and has many rooms.",
+"vocabUsed": ["家", "広い", "部屋"]
+},
+{
+"annotated": "{広い|ひろい}{海|うみ}を{見て|みて}、{気持ち|きもち}がとても{楽しく|たのしく}なった。",
+"translation": "Looking at the wide sea made me feel wonderful.",
+"vocabUsed": ["広い", "海", "見る", "楽しい"]
+},
+{
+"annotated": "{旅行|りょこう}では{色々|いろいろ}な{食べ物|たべもの}を{食べた|たべた}。",
+"translation": "I ate various foods while traveling.",
+"vocabUsed": ["旅行", "色々", "食べる"]
+},
+{
+"annotated": "{学校|がっこう}で{色々|いろいろ}な{問題|もんだい}があって{大変|たいへん}だった。",
+"translation": "There were various problems at school and it was tough.",
+"vocabUsed": ["学校", "色々", "問題", "大変"]
+},
+{
+"annotated": "この{紙|かみ}に{名前|なまえ}を{書いて|かいて}ください。",
+"translation": "Please write your name on this paper.",
+"vocabUsed": ["紙", "名前", "書く", "ください"]
+},
+{
+"annotated": "{先生|せんせい}が{紙|かみ}を{配って|くばって}から{授業|じゅぎょう}が{始まった|はじまった}。",
+"translation": "After the teacher handed out paper, class began.",
+"vocabUsed": ["先生", "紙", "授業", "始まる"]
+}
+]
