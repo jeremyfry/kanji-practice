@@ -271,6 +271,29 @@ rt {
 .rating-good  { background: #1a5c2a; color: #90e6a8; }
 .rating-easy  { background: #0d3d6b; color: #7ec8f5; }
 
+/* Always-visible target word banner */
+.target-banner {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #2a2a4a;
+}
+
+.target-banner-word {
+  font-size: 1.6rem;
+  color: #c9a227;
+  font-weight: 700;
+}
+
+.target-banner-reading {
+  font-size: 0.95rem;
+  color: #c9a227;
+  opacity: 0.8;
+}
+
 /* Target word highlight */
 .target-word {
   color: #c9a227;

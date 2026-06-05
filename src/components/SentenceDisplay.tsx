@@ -1,4 +1,5 @@
 import { parseAnnotated } from '../utils/parseSentences'
+import type { Segment } from '../utils/parseSentences'
 
 interface VocabEntry {
   word:    string
@@ -6,7 +7,14 @@ interface VocabEntry {
   meaning: string
 }
 
+export function isTargetSegment(seg: Segment, targetSurface: string, baseWord: string): boolean {
+  if (seg.text === targetSurface) return true
+  if (seg.text === baseWord) return true
+  return false
+}
+
 interface Props {
+  word:          string
   annotated:     string
   translation:   string
   targetSurface: string
@@ -20,6 +28,7 @@ interface Props {
 }
 
 export function SentenceDisplay({
+  word,
   annotated,
   translation,
   targetSurface,
@@ -36,9 +45,16 @@ export function SentenceDisplay({
 
   return (
     <div className="sentence-card">
+      {targetWord && (
+        <div className="target-banner">
+          <span className="target-banner-word">{targetWord.word}</span>
+          <span className="target-banner-reading">（{targetWord.reading}）</span>
+        </div>
+      )}
+
       <div className="sentence-text">
         {segments.map((seg, i) => {
-          const isTarget = seg.text === targetSurface
+          const isTarget = isTargetSegment(seg, targetSurface, word)
           if (seg.reading && showFurigana) {
             return (
               <ruby key={i} className={isTarget ? 'target-word' : undefined}>

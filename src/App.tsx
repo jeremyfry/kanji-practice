@@ -151,6 +151,7 @@ export default function App() {
         {appState.kind === 'card' && (
           <>
             <SentenceDisplay
+              word={appState.card.word}
               annotated={appState.card.annotated}
               translation={appState.card.translation}
               targetSurface={appState.card.targetSurface}
