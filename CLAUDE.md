@@ -2,12 +2,49 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Development Workflow
+
+All features follow a three-phase TDD cycle. Do not skip phases.
+
+### Phase 1 — Write Failing Tests
+Before any implementation, write tests that describe the expected behavior. Run them to confirm they fail. Tests live in `__tests__/` adjacent to the file under test (e.g. `server/__tests__/srs.test.ts`, `src/__tests__/parseSentences.test.ts`).
+
+```bash
+npm test            # Run all tests once
+npm run test:watch  # Watch mode during development
+```
+
+Tests must fail before you write implementation code. A test that passes immediately is not a test — it is a false signal.
+
+### Phase 2 — Implement Until Tests Pass
+Write the minimum code to make the failing tests pass. Run `npm test` continuously. Do not add logic that is not covered by a test.
+
+### Phase 3 — QA Agent Review
+After all tests pass, spawn a QA agent to probe for edge cases:
+
+```
+Agent({
+  subagent_type: "general-purpose",
+  prompt: `QA review of <feature>. The implementation is complete and tests pass.
+  Files changed: <list files>.
+  Your job: identify edge cases, boundary conditions, error states, unexpected inputs,
+  and missing validations NOT covered by the current tests. Return a numbered list of
+  specific scenarios to test. Do not suggest cosmetic or style changes.`
+})
+```
+
+For each scenario the QA agent returns, loop back to Phase 1: write a failing test, implement, re-run QA. Stop when the QA agent finds no new uncovered cases.
+
 ## Commands
 
 ```bash
 # Development (run both in parallel)
 npm run dev          # Vite frontend dev server on :5173 (proxies /api → :3000)
 npm run dev:server   # Hono backend with live reload on :3000
+
+# Testing
+npm test             # Run all tests (Vitest)
+npm run test:watch   # Watch mode
 
 # Production
 npm run build        # tsc (server) + vite build (frontend) → dist/
@@ -16,8 +53,6 @@ npm start            # Serve production build on :3000
 # Database
 npm run seed         # Load public/vocab.tsv into kanji.db (idempotent)
 ```
-
-No test suite — verify with browser at http://localhost:5173 and curl for API endpoints.
 
 ## Environment Variables
 

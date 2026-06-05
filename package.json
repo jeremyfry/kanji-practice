@@ -8,12 +8,14 @@
     "dev:server": "tsx watch server/index.ts",
     "build": "tsc && vite build",
     "start": "tsx server/index.ts",
-    "seed": "tsx server/seed.ts"
+    "seed": "tsx server/seed.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
     "@hono/node-server": "^1.13.7",
-    "better-sqlite3": "^11.7.0",
+    "better-sqlite3": "^12.10.0",
     "dotenv": "^16.4.7",
     "hono": "^4.7.4",
     "react": "^18.3.1",
@@ -27,7 +29,9 @@
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.4",
+    "@vitest/coverage-v8": "^4.1.8",
     "typescript": "^5.5.3",
-    "vite": "^6.0.1"
+    "vite": "^6.0.1",
+    "vitest": "^4.1.8"
   }
 }
