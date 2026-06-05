@@ -48,7 +48,6 @@ export function SentenceDisplay({
       {targetWord && (
         <div className="target-banner">
           <span className="target-banner-word">{targetWord.word}</span>
-          <span className="target-banner-reading">（{targetWord.reading}）</span>
         </div>
       )}
 
